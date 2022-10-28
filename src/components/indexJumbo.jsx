@@ -40,11 +40,11 @@ export default function IndexJumbo() {
             Цена
           </Link>
           <a href="http://freyanow.com/anxiety" target="_blank"             className="hover:scale-125 transition-all duration-500">Помогаем</a>
-          <a href="http://freyanow.com/affirmations" target="_blank"
+          <Link to="/dignity"  target="_blank"
             className="hover:scale-125 transition-all duration-500"
           >
             НАШИ НОВОСТИ
-          </a>
+          </Link>
           <Link
             to="/contactus"
             className="hover:scale-125 transition-all duration-500"

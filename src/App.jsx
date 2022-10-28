@@ -8,7 +8,8 @@ import ContactUs from "./pages/contactus";
 import Privacy from "./pages/privacy";
 import PersonalPrivacy from "./pages/personalPrivacy";
 import FreeTherapy from "./pages/freetherapy";
-// 
+import Dignity from "./pages/dignity.jsx"
+//
 export default function App() {
   return (
     <div className="w-screen overflow-hidden">
@@ -20,6 +21,7 @@ export default function App() {
         <Route path="/privacy" element={<Privacy />}></Route>
         <Route path="/personal" element={<PersonalPrivacy />}></Route>
         <Route path="/freetherapy" element={<FreeTherapy />}></Route>
+        <Route path="dignity" element={<Dignity />}></Route>
       </Routes>
     </div>
     // <div className="w-screen overflow-hidden">
